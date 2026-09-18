@@ -8,22 +8,34 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const usersFilePath = path.join(__dirname, "../data/users.json");
 
+let inMemoryUsers = null;
+
 // Helper to read users
 const getUsers = () => {
+  if (inMemoryUsers) return inMemoryUsers;
   try {
     if (!fs.existsSync(usersFilePath)) {
-      fs.writeFileSync(usersFilePath, JSON.stringify([]));
+      try {
+        fs.writeFileSync(usersFilePath, JSON.stringify([]));
+      } catch (err) {}
     }
     const raw = fs.readFileSync(usersFilePath, "utf8");
-    return JSON.parse(raw);
+    inMemoryUsers = JSON.parse(raw);
+    return inMemoryUsers;
   } catch (err) {
-    return [];
+    inMemoryUsers = inMemoryUsers || [];
+    return inMemoryUsers;
   }
 };
 
 // Helper to save users
 const saveUsers = (users) => {
-  fs.writeFileSync(usersFilePath, JSON.stringify(users, null, 2));
+  inMemoryUsers = users;
+  try {
+    fs.writeFileSync(usersFilePath, JSON.stringify(users, null, 2));
+  } catch (err) {
+    console.warn("Storage notice: Running in serverless read-only filesystem. Updated in-memory.");
+  }
 };
 
 // Remove password before sending to client

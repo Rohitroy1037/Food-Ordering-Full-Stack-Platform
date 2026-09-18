@@ -8,15 +8,31 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const ordersFilePath = path.join(__dirname, "../data/orders.json");
 
+let inMemoryOrders = null;
+
 const getOrders = () => {
+  if (inMemoryOrders) return inMemoryOrders;
   try {
     if (!fs.existsSync(ordersFilePath)) {
-      fs.writeFileSync(ordersFilePath, JSON.stringify([]));
+      try {
+        fs.writeFileSync(ordersFilePath, JSON.stringify([]));
+      } catch (err) {}
     }
     const raw = fs.readFileSync(ordersFilePath, "utf8");
-    return JSON.parse(raw);
+    inMemoryOrders = JSON.parse(raw);
+    return inMemoryOrders;
   } catch (e) {
-    return [];
+    inMemoryOrders = inMemoryOrders || [];
+    return inMemoryOrders;
+  }
+};
+
+const saveOrders = (orders) => {
+  inMemoryOrders = orders;
+  try {
+    fs.writeFileSync(ordersFilePath, JSON.stringify(orders, null, 2));
+  } catch (err) {
+    console.warn("Storage notice: Running in serverless read-only filesystem. Updated in-memory.");
   }
 };
 
@@ -179,7 +195,7 @@ router.patch("/:orderId/status", (req, res) => {
   }
 
   orders[index].manualStage = Number(stage);
-  fs.writeFileSync(ordersFilePath, JSON.stringify(orders, null, 2));
+  saveOrders(orders);
 
   res.json({
     success: true,
@@ -223,7 +239,7 @@ router.post("/", (req, res) => {
     };
 
     orders.unshift(newOrder);
-    fs.writeFileSync(ordersFilePath, JSON.stringify(orders, null, 2));
+    saveOrders(orders);
 
     const responseOrder = computeTrackingState(newOrder);
 

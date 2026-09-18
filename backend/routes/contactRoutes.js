@@ -8,15 +8,31 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const contactFilePath = path.join(__dirname, "../data/messages.json");
 
+let inMemoryMessages = null;
+
 const getMessages = () => {
+  if (inMemoryMessages) return inMemoryMessages;
   try {
     if (!fs.existsSync(contactFilePath)) {
-      fs.writeFileSync(contactFilePath, JSON.stringify([]));
+      try {
+        fs.writeFileSync(contactFilePath, JSON.stringify([]));
+      } catch (err) {}
     }
     const raw = fs.readFileSync(contactFilePath, "utf8");
-    return JSON.parse(raw);
+    inMemoryMessages = JSON.parse(raw);
+    return inMemoryMessages;
   } catch (e) {
-    return [];
+    inMemoryMessages = inMemoryMessages || [];
+    return inMemoryMessages;
+  }
+};
+
+const saveMessages = (messages) => {
+  inMemoryMessages = messages;
+  try {
+    fs.writeFileSync(contactFilePath, JSON.stringify(messages, null, 2));
+  } catch (err) {
+    console.warn("Storage notice: Running in serverless read-only filesystem. Updated in-memory.");
   }
 };
 
@@ -46,7 +62,7 @@ router.post("/", (req, res) => {
     };
 
     messages.unshift(newMsg);
-    fs.writeFileSync(contactFilePath, JSON.stringify(messages, null, 2));
+    saveMessages(messages);
 
     res.status(201).json({
       success: true,

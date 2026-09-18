@@ -1,0 +1,18 @@
+[
+  {
+    "orderId": "ORD-327433",
+    "items": [
+      {
+        "id": "rm_1",
+        "name": "Dum Biryani",
+        "price": 32000
+      }
+    ],
+    "totalAmount": 32000,
+    "customerInfo": {
+      "name": "Guest User"
+    },
+    "status": "Placed",
+    "createdAt": "2026-09-18T16:35:26.577Z"
+  }
+]

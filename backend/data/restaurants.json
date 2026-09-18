@@ -1,0 +1,551 @@
+[
+  {
+    "info": {
+      "id": "148987",
+      "name": "RasoiMitra Royal Kitchen",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1610057099443-fde8c4d50f91?auto=format&fit=crop&w=600&q=80",
+      "locality": "Model Town",
+      "areaName": "Central Hub",
+      "costForTwo": "₹350 for two",
+      "cuisines": [
+        "North Indian",
+        "Biryani",
+        "Mughlai",
+        "Fast Food"
+      ],
+      "avgRating": 4.6,
+      "veg": false,
+      "sla": {
+        "deliveryTime": 25
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "50% OFF",
+        "subHeader": "UPTO ₹100"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "148988",
+      "name": "Pizza Wings & Crusts",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+      "locality": "GT Road",
+      "areaName": "University Gate",
+      "costForTwo": "₹300 for two",
+      "cuisines": [
+        "Pizzas",
+        "Italian",
+        "Pastas",
+        "Beverages"
+      ],
+      "avgRating": 4.3,
+      "veg": true,
+      "sla": {
+        "deliveryTime": 30
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ITEMS",
+        "subHeader": "AT ₹129"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "148989",
+      "name": "Burger Haven",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+      "locality": "City Center",
+      "areaName": "Main Market",
+      "costForTwo": "₹250 for two",
+      "cuisines": [
+        "Burgers",
+        "Snacks",
+        "American",
+        "Beverages"
+      ],
+      "avgRating": 4.4,
+      "veg": false,
+      "sla": {
+        "deliveryTime": 20
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "40% OFF",
+        "subHeader": "UPTO ₹80"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "148990",
+      "name": "Dum Biryani Palace",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+      "locality": "Defence Colony",
+      "areaName": "South Avenue",
+      "costForTwo": "₹400 for two",
+      "cuisines": [
+        "Biryani",
+        "Hyderabadi",
+        "Mughlai"
+      ],
+      "avgRating": 4.7,
+      "veg": false,
+      "sla": {
+        "deliveryTime": 35
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "FLAT DEAL",
+        "subHeader": "₹125 OFF"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "148991",
+      "name": "Shahi Dawat Punjabi Dhaba",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80",
+      "locality": "Highway Plaza",
+      "areaName": "GT Road",
+      "costForTwo": "₹280 for two",
+      "cuisines": [
+        "Punjabi",
+        "Thalis",
+        "Tandoor",
+        "Desserts"
+      ],
+      "avgRating": 4.3,
+      "veg": true,
+      "sla": {
+        "deliveryTime": 28
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "60% OFF",
+        "subHeader": "UPTO ₹120"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "148992",
+      "name": "Dragon Wok Indo-Chinese",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=600&q=80",
+      "locality": "Urban Estate",
+      "areaName": "Phase 1",
+      "costForTwo": "₹290 for two",
+      "cuisines": [
+        "Chinese",
+        "Asian",
+        "Noodles",
+        "Momos"
+      ],
+      "avgRating": 4.2,
+      "veg": true,
+      "sla": {
+        "deliveryTime": 22
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "ABOVE ₹249"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "148993",
+      "name": "Sagar Ratna",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=600&q=80",
+      "locality": "Civil Lines",
+      "areaName": "Mall Road",
+      "costForTwo": "₹250 for two",
+      "cuisines": [
+        "South Indian",
+        "Dosa",
+        "Idli",
+        "Vada",
+        "Beverages"
+      ],
+      "avgRating": 4.5,
+      "veg": true,
+      "sla": {
+        "deliveryTime": 25
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "25% OFF",
+        "subHeader": "ON ALL ORDERS"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "148994",
+      "name": "Behrouz Biryani",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+      "locality": "Green Park",
+      "areaName": "Sector 14",
+      "costForTwo": "₹500 for two",
+      "cuisines": [
+        "Biryani",
+        "Mughlai",
+        "North Indian",
+        "Kebab"
+      ],
+      "avgRating": 4.6,
+      "veg": false,
+      "sla": {
+        "deliveryTime": 30
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "₹100 OFF",
+        "subHeader": "USE BEHROUZ100"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "148995",
+      "name": "La Pino'z Pizza",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+      "locality": "Model Town",
+      "areaName": "Near Fountain",
+      "costForTwo": "₹350 for two",
+      "cuisines": [
+        "Pizzas",
+        "Italian",
+        "Fast Food",
+        "Garlic Bread"
+      ],
+      "avgRating": 4.4,
+      "veg": true,
+      "sla": {
+        "deliveryTime": 25
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "BOGO FREE",
+        "subHeader": "ON WEDNESDAYS"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "148996",
+      "name": "Wow! Momo & Tibetan Kitchen",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+      "locality": "University Mall",
+      "areaName": "Food Court",
+      "costForTwo": "₹220 for two",
+      "cuisines": [
+        "Tibetan",
+        "Momos",
+        "Asian",
+        "Chinese"
+      ],
+      "avgRating": 4.3,
+      "veg": false,
+      "sla": {
+        "deliveryTime": 20
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "FREE PEPSI",
+        "subHeader": "ON COMBOS"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "148997",
+      "name": "Haldiram's Sweets & Snacks",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+      "locality": "Market Plaza",
+      "areaName": "Commercial Complex",
+      "costForTwo": "₹300 for two",
+      "cuisines": [
+        "Street Food",
+        "Chaat",
+        "North Indian",
+        "Sweets"
+      ],
+      "avgRating": 4.5,
+      "veg": true,
+      "sla": {
+        "deliveryTime": 25
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "ON SWEETS"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "148998",
+      "name": "Faasos Signature Wraps",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=600&q=80",
+      "locality": "Metro Station Road",
+      "areaName": "Sector 3",
+      "costForTwo": "₹280 for two",
+      "cuisines": [
+        "Wraps",
+        "Rolls",
+        "Fast Food",
+        "North Indian"
+      ],
+      "avgRating": 4.2,
+      "veg": false,
+      "sla": {
+        "deliveryTime": 20
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "BUY 1 GET 1",
+        "subHeader": "ON SELECT WRAPS"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "148999",
+      "name": "The Belgian Waffle Co.",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=600&q=80",
+      "locality": "City Square",
+      "areaName": "High Street",
+      "costForTwo": "₹200 for two",
+      "cuisines": [
+        "Waffles",
+        "Desserts",
+        "Bakery",
+        "Ice Cream"
+      ],
+      "avgRating": 4.6,
+      "veg": true,
+      "sla": {
+        "deliveryTime": 18
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "FLAT 30% OFF",
+        "subHeader": "SWEET DEALS"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "149000",
+      "name": "Bombay Chowpatty Pav Bhaji",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=600&q=80",
+      "locality": "Old Town Market",
+      "areaName": "Station Area",
+      "costForTwo": "₹180 for two",
+      "cuisines": [
+        "Street Food",
+        "Mumbai Fast Food",
+        "Pav Bhaji",
+        "Snacks"
+      ],
+      "avgRating": 4.4,
+      "veg": true,
+      "sla": {
+        "deliveryTime": 18
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "EXTRA BUTTER",
+        "subHeader": "FREE ON BHANJI"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "149001",
+      "name": "Cafe Coffee Day",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=600&q=80",
+      "locality": "Campus Road",
+      "areaName": "Near Library",
+      "costForTwo": "₹250 for two",
+      "cuisines": [
+        "Cafe",
+        "Coffee",
+        "Sandwiches",
+        "Desserts"
+      ],
+      "avgRating": 4.3,
+      "veg": true,
+      "sla": {
+        "deliveryTime": 20
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "BUY 1 GET 1",
+        "subHeader": "ON ICED COFFEE"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "149002",
+      "name": "Keventers Milkshakes",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=600&q=80",
+      "locality": "Expressway Mall",
+      "areaName": "Level 2",
+      "costForTwo": "₹250 for two",
+      "cuisines": [
+        "Beverages",
+        "Milkshakes",
+        "Desserts",
+        "Ice Cream"
+      ],
+      "avgRating": 4.5,
+      "veg": true,
+      "sla": {
+        "deliveryTime": 15
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "ON BOTTLES"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "149003",
+      "name": "Karim's Old Delhi Mughlai",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80",
+      "locality": "Heritage Lane",
+      "areaName": "Old Quarter",
+      "costForTwo": "₹450 for two",
+      "cuisines": [
+        "Mughlai",
+        "Kebabs",
+        "Biryani",
+        "North Indian"
+      ],
+      "avgRating": 4.7,
+      "veg": false,
+      "sla": {
+        "deliveryTime": 35
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "ROYAL DEAL",
+        "subHeader": "15% OFF ORDERS"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "149004",
+      "name": "Subway Fresh Subs",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80",
+      "locality": "Metro Plaza",
+      "areaName": "Ground Floor",
+      "costForTwo": "₹300 for two",
+      "cuisines": [
+        "Healthy Food",
+        "Sandwiches",
+        "Salads",
+        "Fast Food"
+      ],
+      "avgRating": 4.3,
+      "veg": false,
+      "sla": {
+        "deliveryTime": 20
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "FREE COOKIE",
+        "subHeader": "ON ANY SUB"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "149005",
+      "name": "Naturals Ice Cream",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=600&q=80",
+      "locality": "Boulevard Road",
+      "areaName": "West End",
+      "costForTwo": "₹180 for two",
+      "cuisines": [
+        "Ice Cream",
+        "Desserts",
+        "Natural Fruits"
+      ],
+      "avgRating": 4.8,
+      "veg": true,
+      "sla": {
+        "deliveryTime": 15
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "20% OFF",
+        "subHeader": "FAMILY PACKS"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "149006",
+      "name": "Chai Point & Snacks",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80",
+      "locality": "IT Park",
+      "areaName": "Tower B Gate",
+      "costForTwo": "₹150 for two",
+      "cuisines": [
+        "Tea",
+        "Chai",
+        "Snacks",
+        "Bakery"
+      ],
+      "avgRating": 4.4,
+      "veg": true,
+      "sla": {
+        "deliveryTime": 15
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "FREE SAMOSA",
+        "subHeader": "ON CHAI FLASK"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "149007",
+      "name": "EatFit Healthy Kitchen",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80",
+      "locality": "Eco Park",
+      "areaName": "Green Sector",
+      "costForTwo": "₹350 for two",
+      "cuisines": [
+        "Healthy Food",
+        "Salads",
+        "Bowls",
+        "North Indian"
+      ],
+      "avgRating": 4.5,
+      "veg": false,
+      "sla": {
+        "deliveryTime": 22
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "FLAT ₹75 OFF",
+        "subHeader": "EAT CLEAN"
+      }
+    }
+  },
+  {
+    "info": {
+      "id": "149008",
+      "name": "Theobroma Patisserie",
+      "cloudinaryImageId": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80",
+      "locality": "Civil Center",
+      "areaName": "Arcade Block",
+      "costForTwo": "₹300 for two",
+      "cuisines": [
+        "Bakery",
+        "Desserts",
+        "Cakes",
+        "Pastries"
+      ],
+      "avgRating": 4.8,
+      "veg": true,
+      "sla": {
+        "deliveryTime": 20
+      },
+      "aggregatedDiscountInfoV3": {
+        "header": "SWEET TREATS",
+        "subHeader": "20% OFF"
+      }
+    }
+  }
+]

@@ -14,17 +14,20 @@ export const Header = () => {
 
   // Subscribing to the store using Selector
   const cartItems = useSelector((storeState) => {
-    // console.log("Store State: ", storeState)
-    return storeState.cart.items;
+    return storeState.cart.items || [];
   });
-  console.log("Store State Items: ", cartItems);
+
+  const totalCartCount = cartItems.reduce(
+    (sum, item) => sum + (item.quantity || 1),
+    0
+  );
 
   // label and paths for all Pages
   const navLinks = [
     { label: "HOME", path: "/" },
     { label: "ABOUT", path: "/about" },
     { label: "FOODS", path: "/foods" },
-    { label: `CART (${cartItems.length})`, path: "/cart" },
+    { label: `CART (${totalCartCount})`, path: "/cart" },
     { label: "CONTACT", path: "/contact" },
   ];
 
@@ -43,33 +46,19 @@ export const Header = () => {
           </h1>
 
           <div className="flex gap-4 mt-2 sm:mt-0">
-            <NavLink
-              to={"#"}
-              className="hover:text-[#FF7517] transition-colors duration-300 cursor-pointer"
-            >
-              SIGN IN
-            </NavLink>
-            <NavLink
-              to={"#"}
-              className="hover:text-[#FF7517] transition-colors duration-300 cursor-pointer"
-            >
-              SIGN UP
-            </NavLink>
+            <button className="hover:text-orange-400">SIGN IN</button>
+            <button className="hover:text-orange-400">SIGN UP</button>
           </div>
         </div>
 
-        {/* Navbar */}
-        <div className="p-3 flex flex-row justify-between items-center w-full bg-[#222831] text-white shadow-md relative">
+        {/* Main Navbar */}
+        <div className="flex justify-between items-center w-full bg-[#222831] text-white px-6 py-4 shadow-md relative">
           {/* Logo */}
-          <NavLink to={`/`}>
-            <p className="font-bold text-[#FF7517] text-lg sm:text-xl px-2 sm:px-4 flex flex-row gap-2 items-center cursor-pointer">
+          <NavLink to="/" className="flex items-center gap-2">
+            <h1 className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-[#F2F2F2] to-[#FF7517] bg-clip-text text-transparent">
               RasoiMitra
-              <GiCampCookingPot
-                className="text-[#B87C4C] text-3xl sm:text-4xl drop-shadow-lg 
-                hover:drop-shadow-[0_8px_16px_rgba(184,124,76,0.6)] 
-                transition-all duration-500 ease-in-out transform hover:scale-110"
-              />
-            </p>
+            </h1>
+            <GiCampCookingPot className="text-3xl sm:text-4xl text-[#B87C4C]" />
           </NavLink>
 
           {/* Desktop Nav */}
@@ -97,9 +86,9 @@ export const Header = () => {
             {/* Cart Icon with Badge */}
             <NavLink to="/cart" className="relative hover:scale-105 duration-300">
               <FaOpencart className="text-3xl sm:text-4xl text-orange-500" />
-              {cartItems.length > 0 && (
+              {totalCartCount > 0 && (
                 <span className="absolute -top-2 -right-2 bg-orange-500 text-white text-xs font-semibold px-2 py-0.5 rounded-full shadow-md">
-                  {cartItems.length}
+                  {totalCartCount}
                 </span>
               )}
             </NavLink>

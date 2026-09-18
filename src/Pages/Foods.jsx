@@ -18,10 +18,46 @@ export const Foods = () => {
 
   console.log("Restaurant Data: ", restroData);
 
+  const normalizeText = (text) =>
+    (text || "")
+      .toLowerCase()
+      .replace(/briyani/g, "biryani")
+      .replace(/[^a-z0-9\s]/g, " ")
+      .trim();
+
   const handelSearchRestro = (value) => {
     setSearchText(value);
-    const filtered = restroData.filter((menu) => {
-      return menu?.info?.name?.toLowerCase().includes(value.toLowerCase());
+    const query = normalizeText(value);
+
+    if (!query) {
+      setFilteredData(restroData);
+      return;
+    }
+
+    const queryWords = query.split(/\s+/).filter(Boolean);
+
+    const filtered = restroData.filter((restro) => {
+      const name = normalizeText(restro?.info?.name);
+      const cuisines = (restro?.info?.cuisines || []).map(normalizeText);
+      const dishes = (restro?.dishes || []).map(normalizeText);
+
+      // 1. Direct match on restaurant name or cuisines
+      if (name.includes(query) || cuisines.some((c) => c.includes(query))) {
+        return true;
+      }
+
+      // 2. Direct match on any available dish
+      if (dishes.some((d) => d.includes(query))) {
+        return true;
+      }
+
+      // 3. Multi-word token match (e.g. "chicken" + "biryani")
+      return queryWords.every(
+        (word) =>
+          name.includes(word) ||
+          cuisines.some((c) => c.includes(word)) ||
+          dishes.some((d) => d.includes(word))
+      );
     });
 
     setFilteredData(filtered);
@@ -50,7 +86,7 @@ export const Foods = () => {
       <div className="flex flex-col md:flex-row items-center gap-4 mb-10 w-full max-w-2xl">
         <input
           type="text"
-          placeholder="Search here..."
+          placeholder="Search foods (e.g. biryani, pizza, burger, noodles)..."
           value={searchText}
           onChange={(e) => handelSearchRestro(e.target.value)}
           className="flex-1 px-4 py-2 rounded-xl border border-gray-600 bg-gray-800 text-white placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-yellow-400 transition"
@@ -72,7 +108,9 @@ export const Foods = () => {
       {/* Restaurant Cards */}
       <div className="flex flex-wrap justify-center gap-6 p-4 mx-auto">
         {filteredData.length > 0 ? (
-          filteredData.map((menu) => <Card key={menu?.info?.id} menu={menu} />)
+          filteredData.map((menu) => (
+            <Card key={menu?.info?.id} menu={menu} searchText={searchText} />
+          ))
         ) : (
           <p className="text-gray-400 text-lg">No restaurants found 🍽️</p>
         )}

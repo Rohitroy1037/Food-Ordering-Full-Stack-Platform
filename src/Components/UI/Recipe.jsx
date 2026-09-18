@@ -10,7 +10,7 @@ export const Recipe = () => {
   const [menuItems, setMenuItems] = useState([]); // Array of Object
   const [restaurantInfo, setRestaurantInfo] = useState(null); // Top Details
   const [isLoading, setIsLoading] = useState(true);
-  const [showIndex, setShowIndex] = useState(null);
+  const [showIndex, setShowIndex] = useState(0);
 
   useEffect(() => {
     const getRecipeData = async () => {
@@ -19,7 +19,7 @@ export const Recipe = () => {
         const { restaurantInfo, menuItems } = await fetchRecipe(id);
         setRestaurantInfo(restaurantInfo);
 
-        const requireData = menuItems.filter(
+        const requireData = (menuItems || []).filter(
           (recipe) =>
             recipe?.card?.card?.["@type"] ===
             "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory"
@@ -64,15 +64,15 @@ export const Recipe = () => {
       {/* Restaurant Info */}
       <div className="p-6 bg-white rounded-2xl shadow-sm border border-gray-200 mb-10">
         <h1 className="text-2xl sm:text-3xl md:text-4xl font-extrabold text-gray-800 mb-2">
-          {name}
+          {name || "Restaurant Menu"}
         </h1>
         <p className="text-gray-500 text-sm sm:text-base mb-3">
-          {cuisines?.join(", ")}
+          {cuisines?.join(", ") || "Delicious Food & Beverages"}
         </p>
         <div className="flex flex-wrap items-center text-sm text-gray-600 gap-3 border-t pt-3">
-          <span>{costForTwoMessage}</span>
+          <span>{costForTwoMessage || "₹300 for two"}</span>
           <span className="hidden sm:inline text-gray-300">|</span>
-          <span>{areaName}</span>
+          <span>{areaName || "Near You"}</span>
         </div>
       </div>
 
@@ -85,10 +85,13 @@ export const Recipe = () => {
       <ul className="space-y-4">
         {menuItems.length > 0 ? (
           menuItems.map((item, index) => {
-            const { categoryId } = item.card.card;
+            const key =
+              item?.card?.card?.categoryId ||
+              item?.card?.card?.title ||
+              `cat_${index}`;
             return (
               <Accordions
-                key={categoryId}
+                key={key}
                 item={item}
                 showRecipe={index === showIndex ? true : false}
                 setShowIndex={() =>

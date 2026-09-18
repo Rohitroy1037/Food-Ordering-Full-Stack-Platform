@@ -1,20 +1,27 @@
+// RestaurantApi.jsx
+// Connects to our local Express backend (/api/restaurants)
 
-
-export const fetchRestroData = async (setRestroData) => {
-  const res = await fetch(
-    //Location - Odisha, Bhubaneswar
-    // "https://www.swiggy.com/dapi/restaurants/list/v5?lat=20.2959847&lng=85.8246101&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-
-    // Location - Lovely Professional University
-    "https://www.swiggy.com/dapi/restaurants/list/v5?lat=31.252318221261632&lng=75.70347367317582&is-seo-homepage-enabled=true&page_type=DESKTOP_WEB_LISTING"
-  );
-  const json = await res.json();
-  const restaurantList =
-    json.data.cards[1].card.card.gridElements.infoWithStyle.restaurants;
- 
-    // console.log("Here is the list: ", restaurantList)
-  return restaurantList; 
+export const fetchRestroData = async () => {
+  try {
+    const res = await fetch("/api/restaurants");
+    if (!res.ok) {
+      throw new Error(`Backend error: ${res.status}`);
+    }
+    const json = await res.json();
+    if (json.success && Array.isArray(json.data)) {
+      return json.data;
+    }
+    throw new Error("Invalid response format");
+  } catch (error) {
+    console.warn("Backend unavailable or returned error. Checking fallback:", error.message);
+    // Fallback if backend server is not running
+    try {
+      const fallbackRes = await fetch("http://localhost:5000/api/restaurants");
+      const fallbackJson = await fallbackRes.json();
+      if (fallbackJson.success && Array.isArray(fallbackJson.data)) {
+        return fallbackJson.data;
+      }
+    } catch (_) {}
+    return [];
+  }
 };
-
-
-

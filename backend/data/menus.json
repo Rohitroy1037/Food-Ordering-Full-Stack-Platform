@@ -1,0 +1,1538 @@
+{
+  "148987": {
+    "restaurantInfo": {
+      "id": "148987",
+      "name": "RasoiMitra Royal Kitchen",
+      "cuisines": [
+        "North Indian",
+        "Biryani",
+        "Mughlai",
+        "Fast Food"
+      ],
+      "costForTwoMessage": "₹350 for two",
+      "areaName": "Central Hub",
+      "avgRating": "4.6"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Chef's Recommendations 🔥",
+            "categoryId": "cat_148987_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "rm_1",
+                    "name": "Special Dum Handi Biryani",
+                    "price": 32000,
+                    "defaultPrice": 32000,
+                    "description": "Aromatic long-grain basmati rice layered with tender marinated chicken pieces, slow-cooked in a sealed clay pot with saffron & authentic spices.",
+                    "imageId": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "rm_2",
+                    "name": "Shahi Paneer Butter Masala",
+                    "price": 28000,
+                    "defaultPrice": 28000,
+                    "description": "Fresh cottage cheese cubes simmered in a rich, buttery and creamy tomato-cashew gravy with hint of fenugreek.",
+                    "imageId": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "rm_3",
+                    "name": "Crispy Farmhouse Cheese Pizza",
+                    "price": 34900,
+                    "defaultPrice": 34900,
+                    "description": "Fresh hand-stretched crust topped with herb tomato sauce, mozzarella cheese, bell peppers, onions, and sweet corn.",
+                    "imageId": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Main Course Curries 🍛",
+            "categoryId": "cat_148987_1",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "rm_4",
+                    "name": "Dal Makhani Slow-Cooked",
+                    "price": 24000,
+                    "defaultPrice": 24000,
+                    "description": "Whole black lentils and kidney beans simmered overnight with butter, cream, and slow wood-fire smoke.",
+                    "imageId": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "rm_5",
+                    "name": "Butter Garlic Naan (2 Pcs)",
+                    "price": 9000,
+                    "defaultPrice": 9000,
+                    "description": "Traditional tandoor-baked leavened bread brushed generously with garlic butter and fresh coriander.",
+                    "imageId": "https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "rm_6",
+                    "name": "Murgh Makhani Butter Chicken",
+                    "price": 34000,
+                    "defaultPrice": 34000,
+                    "description": "Tandoori chicken pieces cooked in a creamy spiced tomato gravy with rich butter and fenugreek.",
+                    "imageId": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "148988": {
+    "restaurantInfo": {
+      "id": "148988",
+      "name": "Pizza Wings & Crusts",
+      "cuisines": [
+        "Pizzas",
+        "Italian",
+        "Pastas",
+        "Beverages"
+      ],
+      "costForTwoMessage": "₹300 for two",
+      "areaName": "University Gate",
+      "avgRating": "4.3"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Gourmet Pizzas 🍕",
+            "categoryId": "cat_148988_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "piz_1",
+                    "name": "Classic Margherita Pizza",
+                    "price": 19900,
+                    "defaultPrice": 19900,
+                    "description": "Authentic Italian tomato sauce, mozzarella cheese, fresh basil leaves, and extra virgin olive oil drizzle.",
+                    "imageId": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "piz_2",
+                    "name": "Peppy Paneer Supreme Pizza",
+                    "price": 27900,
+                    "defaultPrice": 27900,
+                    "description": "Spicy paneer cubes, crisp capsicum, red paprika, and stretchy mozzarella.",
+                    "imageId": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "piz_3",
+                    "name": "Creamy White Sauce Alfredo Pasta",
+                    "price": 21900,
+                    "defaultPrice": 21900,
+                    "description": "Penne pasta tossed in rich parmesan cream sauce with sautéed mushrooms and sweet corn.",
+                    "imageId": "https://images.unsplash.com/photo-1621996346565-e3d5d6281698?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "148989": {
+    "restaurantInfo": {
+      "id": "148989",
+      "name": "Burger Haven",
+      "cuisines": [
+        "Burgers",
+        "Snacks",
+        "American",
+        "Beverages"
+      ],
+      "costForTwoMessage": "₹250 for two",
+      "areaName": "Main Market",
+      "avgRating": "4.4"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Signature Burgers & Fries 🍔",
+            "categoryId": "cat_148989_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "bur_1",
+                    "name": "Loaded Crispy Veg Burger",
+                    "price": 14900,
+                    "defaultPrice": 14900,
+                    "description": "Golden crisp herb patty, lettuce, cheese slice, gherkins and secret chipotle sauce.",
+                    "imageId": "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "bur_2",
+                    "name": "Double Cheese Chicken Burger",
+                    "price": 22900,
+                    "defaultPrice": 22900,
+                    "description": "Grilled juicy chicken patty with melted cheddar, caramelised onions, and barbecue sauce.",
+                    "imageId": "https://images.unsplash.com/photo-1586190848861-99aa4a171e90?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "bur_3",
+                    "name": "Peri Peri French Fries",
+                    "price": 11900,
+                    "defaultPrice": 11900,
+                    "description": "Crispy golden french fries tossed with African peri-peri spice mix.",
+                    "imageId": "https://images.unsplash.com/photo-1576107232684-1279f3908594?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "148990": {
+    "restaurantInfo": {
+      "id": "148990",
+      "name": "Dum Biryani Palace",
+      "cuisines": [
+        "Biryani",
+        "Hyderabadi",
+        "Mughlai"
+      ],
+      "costForTwoMessage": "₹400 for two",
+      "areaName": "South Avenue",
+      "avgRating": "4.7"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Specialty Biryanis 🥘",
+            "categoryId": "cat_148990_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "bir_1",
+                    "name": "Hyderabadi Chicken Biryani",
+                    "price": 29900,
+                    "defaultPrice": 29900,
+                    "description": "Authentic Hyderabadi kacchi dum chicken biryani cooked with fragrant basmati rice, tender chicken, and whole spices.",
+                    "imageId": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "bir_2",
+                    "name": "Chicken Dum Biryani (Full)",
+                    "price": 34900,
+                    "defaultPrice": 34900,
+                    "description": "Generous serving of slow-cooked spiced chicken biryani with boiled egg, mirchi salan, and onion raita.",
+                    "imageId": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "bir_3",
+                    "name": "Royal Mutton Dum Biryani",
+                    "price": 42000,
+                    "defaultPrice": 42000,
+                    "description": "Tender pieces of mutton marinated in curd and secret spices, layered with saffron rice and fried onions.",
+                    "imageId": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "bir_4",
+                    "name": "Paneer Tikka Biryani",
+                    "price": 26000,
+                    "defaultPrice": 26000,
+                    "description": "Smoky char-grilled paneer cubes layered with aromatic spiced basmati rice.",
+                    "imageId": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "148991": {
+    "restaurantInfo": {
+      "id": "148991",
+      "name": "Shahi Dawat Punjabi Dhaba",
+      "cuisines": [
+        "Punjabi",
+        "Thalis",
+        "Tandoor",
+        "Desserts"
+      ],
+      "costForTwoMessage": "₹280 for two",
+      "areaName": "GT Road",
+      "avgRating": "4.3"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Punjabi Thalis & Curries 🍲",
+            "categoryId": "cat_148991_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "pun_1",
+                    "name": "Special Amritsari Chole Bhature",
+                    "price": 17900,
+                    "defaultPrice": 17900,
+                    "description": "Two fluffy deep-fried bhaturas served with spicy dark Amritsari pindi chole and tangy pickle.",
+                    "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "pun_2",
+                    "name": "Dal Makhani Desi Ghee",
+                    "price": 23000,
+                    "defaultPrice": 23000,
+                    "description": "Slow-cooked black lentils prepared with pure desi ghee and fresh churned butter.",
+                    "imageId": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "pun_3",
+                    "name": "Paneer Butter Masala",
+                    "price": 26000,
+                    "defaultPrice": 26000,
+                    "description": "Cottage cheese cubes tossed in velvet tomato gravy with kasuri methi.",
+                    "imageId": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "148992": {
+    "restaurantInfo": {
+      "id": "148992",
+      "name": "Dragon Wok Indo-Chinese",
+      "cuisines": [
+        "Chinese",
+        "Asian",
+        "Noodles",
+        "Momos"
+      ],
+      "costForTwoMessage": "₹290 for two",
+      "areaName": "Phase 1",
+      "avgRating": "4.2"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Wok Specials & Momos 🍜",
+            "categoryId": "cat_148992_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "chi_1",
+                    "name": "Chilli Garlic Hakka Noodles",
+                    "price": 21000,
+                    "defaultPrice": 21000,
+                    "description": "Wok-tossed noodles with shredded vegetables, roasted garlic, and spicy red chilli sauce.",
+                    "imageId": "https://images.unsplash.com/photo-1585032226651-759b368d7246?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "chi_2",
+                    "name": "Veg Manchurian Gravy",
+                    "price": 22000,
+                    "defaultPrice": 22000,
+                    "description": "Crispy vegetable balls simmered in a dark, savoury, tangy soya and ginger garlic gravy.",
+                    "imageId": "https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "chi_3",
+                    "name": "Steamed Veg Momos (8 Pcs)",
+                    "price": 14900,
+                    "defaultPrice": 14900,
+                    "description": "Delicate thin-wrapper dumplings filled with seasoned vegetables, served with fiery red chutney.",
+                    "imageId": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "148993": {
+    "restaurantInfo": {
+      "id": "148993",
+      "name": "Sagar Ratna",
+      "cuisines": [
+        "South Indian",
+        "Dosa",
+        "Idli",
+        "Vada",
+        "Beverages"
+      ],
+      "costForTwoMessage": "₹250 for two",
+      "areaName": "Mall Road",
+      "avgRating": "4.5"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Authentic South Indian 🥞",
+            "categoryId": "cat_148993_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "sr_1",
+                    "name": "Mysore Masala Dosa",
+                    "price": 18000,
+                    "defaultPrice": 18000,
+                    "description": "Golden crisp crepe smeared with fiery red garlic-chilli chutney and filled with spiced potato mash.",
+                    "imageId": "https://images.unsplash.com/photo-1668236543090-82eba5ee5976?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "sr_2",
+                    "name": "Ghee Podi Button Idli",
+                    "price": 14000,
+                    "defaultPrice": 14000,
+                    "description": "Mini steamed rice cakes tossed in melted cow ghee and gunpowder lentil spice mix.",
+                    "imageId": "https://images.unsplash.com/photo-1589301760014-d929f3979dbc?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "sr_3",
+                    "name": "Crispy Medu Vada Sambar",
+                    "price": 13000,
+                    "defaultPrice": 13000,
+                    "description": "Crispy fried lentil donuts served with piping hot vegetable sambar and fresh coconut chutney.",
+                    "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "148994": {
+    "restaurantInfo": {
+      "id": "148994",
+      "name": "Behrouz Biryani",
+      "cuisines": [
+        "Biryani",
+        "Mughlai",
+        "North Indian",
+        "Kebab"
+      ],
+      "costForTwoMessage": "₹500 for two",
+      "areaName": "Sector 14",
+      "avgRating": "4.6"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Royal Biryani Handis 👑",
+            "categoryId": "cat_148994_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "bb_1",
+                    "name": "Dum Gosht Mutton Biryani",
+                    "price": 46000,
+                    "defaultPrice": 46000,
+                    "description": "Tender meat pieces slow-cooked with royal whole spices, layered with saffron basmati rice.",
+                    "imageId": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "bb_2",
+                    "name": "Murgh Makhani Biryani",
+                    "price": 39000,
+                    "defaultPrice": 39000,
+                    "description": "Boneless chicken tikka tossed in makhani gravy layered with spiced basmati and garnished with dried nuts.",
+                    "imageId": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "bb_3",
+                    "name": "Subz-e-Biryani",
+                    "price": 29000,
+                    "defaultPrice": 29000,
+                    "description": "Assorted garden vegetables and fresh paneer slow-cooked with aromatic royal spices.",
+                    "imageId": "https://images.unsplash.com/photo-1631452180519-c014fe946bc7?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "148995": {
+    "restaurantInfo": {
+      "id": "148995",
+      "name": "La Pino'z Pizza",
+      "cuisines": [
+        "Pizzas",
+        "Italian",
+        "Fast Food",
+        "Garlic Bread"
+      ],
+      "costForTwoMessage": "₹350 for two",
+      "areaName": "Near Fountain",
+      "avgRating": "4.4"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Monster & Gourmet Pizzas 🍕",
+            "categoryId": "cat_148995_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "lp_1",
+                    "name": "Cheesy-7 Pizza",
+                    "price": 29900,
+                    "defaultPrice": 29900,
+                    "description": "Heavenly combination of 7 exquisite cheeses including Mozzarella, Gouda, Cheddar, and Monterey Jack.",
+                    "imageId": "https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "lp_2",
+                    "name": "English Retreat Pizza",
+                    "price": 28900,
+                    "defaultPrice": 28900,
+                    "description": "Olives, red paprika, sweet corn, jalapeños, and capsicum with signature sauce.",
+                    "imageId": "https://images.unsplash.com/photo-1604382355076-af4b0eb60143?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "lp_3",
+                    "name": "Stuffed Garlic Breadsticks",
+                    "price": 15900,
+                    "defaultPrice": 15900,
+                    "description": "Crispy freshly baked bread brushed with herb butter and stuffed with sweet corn & jalapeño cheese.",
+                    "imageId": "https://images.unsplash.com/photo-1626074353765-517a681e40be?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "148996": {
+    "restaurantInfo": {
+      "id": "148996",
+      "name": "Wow! Momo & Tibetan Kitchen",
+      "cuisines": [
+        "Tibetan",
+        "Momos",
+        "Asian",
+        "Chinese"
+      ],
+      "costForTwoMessage": "₹220 for two",
+      "areaName": "Food Court",
+      "avgRating": "4.3"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Steamed, Fried & Pan Fried Momos 🥟",
+            "categoryId": "cat_148996_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "wm_1",
+                    "name": "Darjeeling Chicken Momos (8 Pcs)",
+                    "price": 17900,
+                    "defaultPrice": 17900,
+                    "description": "Authentic Himalayan minced chicken dumplings flavoured with spring onions and coriander.",
+                    "imageId": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "wm_2",
+                    "name": "Pan Fried Schezwan Veg Momos",
+                    "price": 16900,
+                    "defaultPrice": 16900,
+                    "description": "Pan-crisped vegetable momos tossed in hot, zesty Schezwan sauce.",
+                    "imageId": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "wm_3",
+                    "name": "Cheese & Corn Fried Momos",
+                    "price": 18900,
+                    "defaultPrice": 18900,
+                    "description": "Crunchy fried momos oozing with melted cheese and sweet corn.",
+                    "imageId": "https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "148997": {
+    "restaurantInfo": {
+      "id": "148997",
+      "name": "Haldiram's Sweets & Snacks",
+      "cuisines": [
+        "Street Food",
+        "Chaat",
+        "North Indian",
+        "Sweets"
+      ],
+      "costForTwoMessage": "₹300 for two",
+      "areaName": "Commercial Complex",
+      "avgRating": "4.5"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Famous Dilli Ki Chaat & Snacks 🥙",
+            "categoryId": "cat_148997_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "hd_1",
+                    "name": "Special Raj Kachori",
+                    "price": 14000,
+                    "defaultPrice": 14000,
+                    "description": "Crispy hollow shell stuffed with potatoes, sprouted lentils, sweetened yoghurt, tamarind and mint chutneys.",
+                    "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "hd_2",
+                    "name": "Chole Bhature Delite",
+                    "price": 18000,
+                    "defaultPrice": 18000,
+                    "description": "Golden fried fluffy bhaturas served with robust spicy chickpeas and onion rings.",
+                    "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "hd_3",
+                    "name": "Kaju Katli (250g Box)",
+                    "price": 29900,
+                    "defaultPrice": 29900,
+                    "description": "Diamond-shaped cashew nut fudge coated in pure edible silver leaf.",
+                    "imageId": "https://images.unsplash.com/photo-1587314168485-3236d6710814?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "148998": {
+    "restaurantInfo": {
+      "id": "148998",
+      "name": "Faasos Signature Wraps",
+      "cuisines": [
+        "Wraps",
+        "Rolls",
+        "Fast Food",
+        "North Indian"
+      ],
+      "costForTwoMessage": "₹280 for two",
+      "areaName": "Sector 3",
+      "avgRating": "4.2"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Loaded Paratha Wraps 🌯",
+            "categoryId": "cat_148998_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "fs_1",
+                    "name": "Smokey Chicken Tikka Wrap",
+                    "price": 21900,
+                    "defaultPrice": 21900,
+                    "description": "Char-grilled smoky chicken tikka wrapped in a flakey paratha with mint mayo and pickled onions.",
+                    "imageId": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "fs_2",
+                    "name": "Paneer Signature Melt Wrap",
+                    "price": 19900,
+                    "defaultPrice": 19900,
+                    "description": "Soft paneer tossed in chipotle sauce with melted cheese slice inside a handmade paratha.",
+                    "imageId": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "fs_3",
+                    "name": "Double Egg Double Cheese Roll",
+                    "price": 16900,
+                    "defaultPrice": 16900,
+                    "description": "Fluffy two-egg omelette layered on paratha with melted cheese and spicy green relish.",
+                    "imageId": "https://images.unsplash.com/photo-1626700051175-6818013e1d4f?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "148999": {
+    "restaurantInfo": {
+      "id": "148999",
+      "name": "The Belgian Waffle Co.",
+      "cuisines": [
+        "Waffles",
+        "Desserts",
+        "Bakery",
+        "Ice Cream"
+      ],
+      "costForTwoMessage": "₹200 for two",
+      "areaName": "High Street",
+      "avgRating": "4.6"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Warm Crispy Waffle-wiches 🧇",
+            "categoryId": "cat_148999_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "bw_1",
+                    "name": "Nutella Overload Waffle",
+                    "price": 17500,
+                    "defaultPrice": 17500,
+                    "description": "Warm crispy European waffle loaded with premium Nutella hazelnut cocoa spread.",
+                    "imageId": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "bw_2",
+                    "name": "Red Velvet Cream Cheese Waffle",
+                    "price": 16500,
+                    "defaultPrice": 16500,
+                    "description": "Signature red velvet batter waffle filled with sweet vanilla cream cheese and white chocolate.",
+                    "imageId": "https://images.unsplash.com/photo-1562376552-0d160a2f238d?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "bw_3",
+                    "name": "Death By Chocolate Waffle",
+                    "price": 18500,
+                    "defaultPrice": 18500,
+                    "description": "Dark chocolate waffle filled with melted dark chocolate and topped with chocolate curls.",
+                    "imageId": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "149000": {
+    "restaurantInfo": {
+      "id": "149000",
+      "name": "Bombay Chowpatty Pav Bhaji",
+      "cuisines": [
+        "Street Food",
+        "Mumbai Fast Food",
+        "Pav Bhaji",
+        "Snacks"
+      ],
+      "costForTwoMessage": "₹180 for two",
+      "areaName": "Station Area",
+      "avgRating": "4.4"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Mumbai Street Specials 🍞",
+            "categoryId": "cat_149000_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "bc_1",
+                    "name": "Special Amul Butter Pav Bhaji",
+                    "price": 14000,
+                    "defaultPrice": 14000,
+                    "description": "Spiced mashed vegetable curry slow-simmered on a tawa with copious melted Amul butter and toasted pavs.",
+                    "imageId": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "bc_2",
+                    "name": "Cheese Burst Pav Bhaji",
+                    "price": 17000,
+                    "defaultPrice": 17000,
+                    "description": "Signature spicy bhaji topped with a thick blanket of grated processed cheese.",
+                    "imageId": "https://images.unsplash.com/photo-1606491956689-2ea866880c84?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "bc_3",
+                    "name": "Mumbai Batata Vada Pav (2 Pcs)",
+                    "price": 9000,
+                    "defaultPrice": 9000,
+                    "description": "Golden spiced potato fritters served inside pavs with dry garlic chutney and fried green chilli.",
+                    "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "149001": {
+    "restaurantInfo": {
+      "id": "149001",
+      "name": "Cafe Coffee Day",
+      "cuisines": [
+        "Cafe",
+        "Coffee",
+        "Sandwiches",
+        "Desserts"
+      ],
+      "costForTwoMessage": "₹250 for two",
+      "areaName": "Near Library",
+      "avgRating": "4.3"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Cold Coffees & Bites ☕",
+            "categoryId": "cat_149001_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "ccd_1",
+                    "name": "Devil's Own Cold Frappe",
+                    "price": 19900,
+                    "defaultPrice": 19900,
+                    "description": "Rich espresso blended with vanilla ice cream, thick chocolate fudge, and whipped cream.",
+                    "imageId": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "ccd_2",
+                    "name": "Classic Cappuccino",
+                    "price": 13900,
+                    "defaultPrice": 13900,
+                    "description": "Balanced dark roast espresso topped with steamed milk and thick velvety microfoam.",
+                    "imageId": "https://images.unsplash.com/photo-1517701550927-30cf4ba1dba5?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "ccd_3",
+                    "name": "Crispy Veg Club Sandwich",
+                    "price": 15900,
+                    "defaultPrice": 15900,
+                    "description": "Triple-layer toasted sandwich stuffed with cucumber, tomato, herb potato mash, and cheese.",
+                    "imageId": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "149002": {
+    "restaurantInfo": {
+      "id": "149002",
+      "name": "Keventers Milkshakes",
+      "cuisines": [
+        "Beverages",
+        "Milkshakes",
+        "Desserts",
+        "Ice Cream"
+      ],
+      "costForTwoMessage": "₹250 for two",
+      "areaName": "Level 2",
+      "avgRating": "4.5"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Iconic Thick Milkshakes 🥤",
+            "categoryId": "cat_149002_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "kv_1",
+                    "name": "Chocolate Oreo Thick Shake",
+                    "price": 18900,
+                    "defaultPrice": 18900,
+                    "description": "Crushed crunchy Oreo cookies blended with dairy ice cream and dark cocoa sauce in a signature glass bottle.",
+                    "imageId": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "kv_2",
+                    "name": "Alfonso Mango Milkshake",
+                    "price": 17900,
+                    "defaultPrice": 17900,
+                    "description": "Made with genuine Ratnagiri Alfonso mango pulp and chilled full-cream milk.",
+                    "imageId": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "kv_3",
+                    "name": "Classic Strawberry Shake",
+                    "price": 15900,
+                    "defaultPrice": 15900,
+                    "description": "Fresh sweet strawberries whipped into thick creamy chilled milk.",
+                    "imageId": "https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "149003": {
+    "restaurantInfo": {
+      "id": "149003",
+      "name": "Karim's Old Delhi Mughlai",
+      "cuisines": [
+        "Mughlai",
+        "Kebabs",
+        "Biryani",
+        "North Indian"
+      ],
+      "costForTwoMessage": "₹450 for two",
+      "areaName": "Old Quarter",
+      "avgRating": "4.7"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Royal Mughlai Specials 🍖",
+            "categoryId": "cat_149003_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "km_1",
+                    "name": "Mutton Seekh Kebab (4 Pcs)",
+                    "price": 34000,
+                    "defaultPrice": 34000,
+                    "description": "Finely minced spiced mutton skewers grilled over live glowing charcoal embers.",
+                    "imageId": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "km_2",
+                    "name": "Shahi Mutton Korma",
+                    "price": 41000,
+                    "defaultPrice": 41000,
+                    "description": "Slow-cooked mutton pieces in a thick, opulent brown onion and curd gravy with royal essences.",
+                    "imageId": "https://images.unsplash.com/photo-1603894584373-5ac82b2ae398?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "km_3",
+                    "name": "Tandoori Chicken Full",
+                    "price": 45000,
+                    "defaultPrice": 45000,
+                    "description": "Whole tender chicken marinated in Kashmiri red chilli, curd, and tandoori spices, char-grilled to perfection.",
+                    "imageId": "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "149004": {
+    "restaurantInfo": {
+      "id": "149004",
+      "name": "Subway Fresh Subs",
+      "cuisines": [
+        "Healthy Food",
+        "Sandwiches",
+        "Salads",
+        "Fast Food"
+      ],
+      "costForTwoMessage": "₹300 for two",
+      "areaName": "Ground Floor",
+      "avgRating": "4.3"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Fresh Subs & Wraps 🥪",
+            "categoryId": "cat_149004_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "sub_1",
+                    "name": "Paneer Tikka 6-Inch Sub",
+                    "price": 21900,
+                    "defaultPrice": 21900,
+                    "description": "Tandoori spiced paneer cubes with your choice of freshly baked bread, garden veggies, and creamy sauces.",
+                    "imageId": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "sub_2",
+                    "name": "Roasted Chicken Strip Sub",
+                    "price": 24900,
+                    "defaultPrice": 24900,
+                    "description": "Tender roasted chicken strips topped with lettuce, cucumbers, jalapeños, and sweet onion sauce.",
+                    "imageId": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "sub_3",
+                    "name": "Double Chocolate Chip Cookie",
+                    "price": 5900,
+                    "defaultPrice": 5900,
+                    "description": "Soft-baked American cookie packed with gooey chocolate chips.",
+                    "imageId": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "149005": {
+    "restaurantInfo": {
+      "id": "149005",
+      "name": "Naturals Ice Cream",
+      "cuisines": [
+        "Ice Cream",
+        "Desserts",
+        "Natural Fruits"
+      ],
+      "costForTwoMessage": "₹180 for two",
+      "areaName": "West End",
+      "avgRating": "4.8"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Real Fruit Scoops 🍨",
+            "categoryId": "cat_149005_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "nat_1",
+                    "name": "Tender Coconut Ice Cream (Double Scoop)",
+                    "price": 16000,
+                    "defaultPrice": 16000,
+                    "description": "Made with genuine tender coconut water, tender malai pieces, milk, and sugar.",
+                    "imageId": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "nat_2",
+                    "name": "Alphonso Mango Scoop",
+                    "price": 15000,
+                    "defaultPrice": 15000,
+                    "description": "Pure mango sweetness without any artificial colors or preservatives.",
+                    "imageId": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "nat_3",
+                    "name": "Roasted Almond Scoop",
+                    "price": 17000,
+                    "defaultPrice": 17000,
+                    "description": "Creamy milk ice cream loaded with crunchy roasted California almonds.",
+                    "imageId": "https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "149006": {
+    "restaurantInfo": {
+      "id": "149006",
+      "name": "Chai Point & Snacks",
+      "cuisines": [
+        "Tea",
+        "Chai",
+        "Snacks",
+        "Bakery"
+      ],
+      "costForTwoMessage": "₹150 for two",
+      "areaName": "Tower B Gate",
+      "avgRating": "4.4"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Hot Brews & Quick Bites ☕",
+            "categoryId": "cat_149006_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "cp_1",
+                    "name": "Adrak Elaichi Chai (500ml Flask)",
+                    "price": 13900,
+                    "defaultPrice": 13900,
+                    "description": "Fresh hand-pounded ginger and cardamom brewed with premium Assam tea leaves and cow milk.",
+                    "imageId": "https://images.unsplash.com/photo-1576092768241-dec231879fc3?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "cp_2",
+                    "name": "Mumbaiya Bun Maska",
+                    "price": 6900,
+                    "defaultPrice": 6900,
+                    "description": "Soft sweet bun sliced and generously slathered with salted butter.",
+                    "imageId": "https://images.unsplash.com/photo-1528735602780-2552fd46c7af?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "cp_3",
+                    "name": "Crispy Samosa with Mint Chutney (2 Pcs)",
+                    "price": 7900,
+                    "defaultPrice": 7900,
+                    "description": "Golden fried pyramid pastry filled with spiced potatoes and peas.",
+                    "imageId": "https://images.unsplash.com/photo-1601050690597-df0568f70950?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "149007": {
+    "restaurantInfo": {
+      "id": "149007",
+      "name": "EatFit Healthy Kitchen",
+      "cuisines": [
+        "Healthy Food",
+        "Salads",
+        "Bowls",
+        "North Indian"
+      ],
+      "costForTwoMessage": "₹350 for two",
+      "areaName": "Green Sector",
+      "avgRating": "4.5"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Wholesome Balanced Bowls 🥗",
+            "categoryId": "cat_149007_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "ef_1",
+                    "name": "High-Protein Grilled Chicken Salad",
+                    "price": 27900,
+                    "defaultPrice": 27900,
+                    "description": "Herb-grilled chicken breast cubes with crisp greens, cherry tomatoes, cucumbers, and olive oil vinaigrette.",
+                    "imageId": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 0
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "ef_2",
+                    "name": "Moong Dal & Quinoa Khichdi",
+                    "price": 21900,
+                    "defaultPrice": 21900,
+                    "description": "Easily digestible wholesome superfood khichdi prepared with ghee and roasted cumin.",
+                    "imageId": "https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "ef_3",
+                    "name": "Fruit & Nut Protein Yogurt Bowl",
+                    "price": 18900,
+                    "defaultPrice": 18900,
+                    "description": "Greek yogurt topped with fresh seasonal berries, sliced bananas, chia seeds, and honey.",
+                    "imageId": "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "149008": {
+    "restaurantInfo": {
+      "id": "149008",
+      "name": "Theobroma Patisserie",
+      "cuisines": [
+        "Bakery",
+        "Desserts",
+        "Cakes",
+        "Pastries"
+      ],
+      "costForTwoMessage": "₹300 for two",
+      "areaName": "Arcade Block",
+      "avgRating": "4.8"
+    },
+    "menuItems": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+            "title": "Decadent Brownies & Pastries 🍰",
+            "categoryId": "cat_149008_0",
+            "itemCards": [
+              {
+                "card": {
+                  "info": {
+                    "id": "tb_1",
+                    "name": "Signature Overload Brownie",
+                    "price": 12500,
+                    "defaultPrice": 12500,
+                    "description": "Dense, gooey chocolate brownie made with 55% pure Belgian dark chocolate.",
+                    "imageId": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "tb_2",
+                    "name": "New York Baked Cheesecake Slice",
+                    "price": 18000,
+                    "defaultPrice": 18000,
+                    "description": "Creamy baked Philadelphia cheesecake on a crunchy digestive biscuit crust.",
+                    "imageId": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              },
+              {
+                "card": {
+                  "info": {
+                    "id": "tb_3",
+                    "name": "Red Velvet Pastry with Cream Cheese",
+                    "price": 14000,
+                    "defaultPrice": 14000,
+                    "description": "Velvety sponge layered with tangy vanilla cream cheese frosting.",
+                    "imageId": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=600&q=80",
+                    "isVeg": 1
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

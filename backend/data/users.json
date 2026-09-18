@@ -20,5 +20,16 @@
     "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=Priya%20Sharma",
     "role": "customer",
     "createdAt": "2026-09-18T18:09:28.398Z"
+  },
+  {
+    "id": "usr_3956",
+    "name": "Rohit Roy",
+    "email": "rohitroy1037@gmail.com",
+    "phone": "9874563210",
+    "password": "12345678",
+    "address": "sdfghjkl;R",
+    "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=Rohit%20Roy",
+    "role": "customer",
+    "createdAt": "2026-09-18T18:11:23.852Z"
   }
 ]

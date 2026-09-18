@@ -8,8 +8,7 @@ import { About } from "./Pages/About";
 import './App.css'
 import { Recipe } from "./Components/UI/Recipe";
 import { Cart } from "./Pages/Cart";
-
-
+import { TrackOrder } from "./Pages/TrackOrder";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -32,6 +31,14 @@ const App = () => {
         {
           path: "/cart",
           element: <Cart />,
+        },
+        {
+          path: "/track",
+          element: <TrackOrder />,
+        },
+        {
+          path: "/track/:orderId",
+          element: <TrackOrder />,
         },
         {
           path: "/foods",

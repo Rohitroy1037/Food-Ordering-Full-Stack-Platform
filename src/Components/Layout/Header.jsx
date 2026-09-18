@@ -27,6 +27,7 @@ export const Header = () => {
     { label: "HOME", path: "/" },
     { label: "ABOUT", path: "/about" },
     { label: "FOODS", path: "/foods" },
+    { label: "TRACK ORDER", path: "/track" },
     { label: `CART (${totalCartCount})`, path: "/cart" },
     { label: "CONTACT", path: "/contact" },
   ];
@@ -104,12 +105,12 @@ export const Header = () => {
 
           {/* Mobile Dropdown */}
           {menuOpen && (
-            <div className="absolute top-full left-0 w-full bg-black/20 backdrop-blur-md flex flex-col items-center py-4 md:hidden shadow-lg z-50">
+            <div className="absolute top-full left-0 w-full bg-[#222831] border-t border-gray-800 flex flex-col items-center py-4 md:hidden shadow-2xl z-50">
               {navLinks.map(({ label, path }) => (
                 <NavLink
                   to={path}
                   key={label}
-                  className="py-2 text-black hover:text-[#FF7517] transition-colors duration-300 font-semibold"
+                  className="py-2.5 text-white hover:text-[#FF7517] transition-colors duration-300 font-semibold text-sm"
                   onClick={() => setMenuOpen(false)}
                 >
                   {label}

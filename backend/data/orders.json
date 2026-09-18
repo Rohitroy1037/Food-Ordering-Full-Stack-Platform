@@ -1,5 +1,190 @@
 [
   {
+    "orderId": "ORD-695237",
+    "items": [
+      {
+        "id": "dish_paneer_butter",
+        "name": "Paneer Butter Masala",
+        "price": 26000,
+        "quantity": 2,
+        "restaurantName": "Pind Balluchi"
+      },
+      {
+        "id": "dish_garlic_naan",
+        "name": "Butter Garlic Naan",
+        "price": 6000,
+        "quantity": 3,
+        "restaurantName": "Pind Balluchi"
+      }
+    ],
+    "totalAmount": 70000,
+    "customerInfo": {
+      "name": "Rohit Roy",
+      "phone": "+91 98765 43210"
+    },
+    "deliveryAddress": "Flat 402, Green Avenue, Model Town",
+    "paymentMethod": "UPI (Google Pay)",
+    "paymentDetails": {},
+    "paymentStatus": "Paid Online",
+    "orderStatus": "Order Confirmed & Preparing",
+    "estimatedDelivery": "25 - 35 mins",
+    "rider": {
+      "name": "Ramesh Kumar",
+      "phone": "+91 98765 43210",
+      "vehicle": "Honda Activa (PB 08 AB 1234)",
+      "rating": "4.9 ⭐",
+      "trips": "1,420+ deliveries",
+      "avatar": "https://images.unsplash.com/photo-1534528741775-53994a69daeb?auto=format&fit=crop&w=200&q=80",
+      "vaccinated": true
+    },
+    "restaurant": {
+      "name": "Pind Balluchi",
+      "address": "Block C, Metro Junction, Central Market"
+    },
+    "createdAt": "2026-09-18T17:53:59.315Z",
+    "manualStage": 4
+  },
+  {
+    "orderId": "ORD-910308",
+    "items": [
+      {
+        "id": "rm_1",
+        "name": "Special Dum Handi Biryani",
+        "price": 32000,
+        "defaultPrice": 32000,
+        "description": "Aromatic long-grain basmati rice layered with tender marinated chicken pieces, slow-cooked in a sealed clay pot with saffron & authentic spices.",
+        "imageId": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+        "isVeg": 0,
+        "quantity": 2
+      }
+    ],
+    "totalAmount": 64500,
+    "customerInfo": {
+      "name": "Rohit Roy",
+      "phone": "9876543210"
+    },
+    "deliveryAddress": "Flat 402, Green Avenue, Model Town",
+    "paymentMethod": "Cash on Delivery",
+    "paymentDetails": {
+      "method": "Cash on Delivery",
+      "upiApp": null,
+      "upiId": null,
+      "bank": null
+    },
+    "paymentStatus": "Pending (Cash on Delivery)",
+    "orderStatus": "Order Confirmed & Preparing",
+    "estimatedDelivery": "25 - 35 mins",
+    "createdAt": "2026-09-18T17:35:16.924Z"
+  },
+  {
+    "orderId": "ORD-656121",
+    "items": [
+      {
+        "id": "piz_1",
+        "name": "Margherita Pizza",
+        "price": 19900,
+        "quantity": 2
+      }
+    ],
+    "totalAmount": 43300,
+    "customerInfo": {
+      "name": "Rohit Roy",
+      "phone": "9876543210"
+    },
+    "deliveryAddress": "Flat 402, Green Avenue, Model Town",
+    "paymentMethod": "Cash on Delivery",
+    "paymentDetails": {
+      "method": "Cash on Delivery"
+    },
+    "paymentStatus": "Pending (Cash on Delivery)",
+    "orderStatus": "Order Confirmed & Preparing",
+    "estimatedDelivery": "25 - 35 mins",
+    "createdAt": "2026-09-18T17:33:57.567Z"
+  },
+  {
+    "orderId": "ORD-622200",
+    "items": [
+      {
+        "id": "rm_1",
+        "name": "Dum Biryani",
+        "price": 32000,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 36000,
+    "customerInfo": {
+      "name": "Rohit Roy",
+      "phone": "9876543210"
+    },
+    "deliveryAddress": "Flat 402, Green Avenue, Model Town",
+    "paymentMethod": "UPI (Google Pay)",
+    "paymentDetails": {
+      "method": "UPI",
+      "upiApp": "Google Pay"
+    },
+    "paymentStatus": "Paid Online",
+    "orderStatus": "Order Confirmed & Preparing",
+    "estimatedDelivery": "25 - 35 mins",
+    "createdAt": "2026-09-18T17:33:57.544Z"
+  },
+  {
+    "orderId": "ORD-767244",
+    "items": [
+      {
+        "id": "piz_1",
+        "name": "Margherita Pizza",
+        "price": 19900,
+        "quantity": 2
+      }
+    ],
+    "totalAmount": 43300,
+    "customerInfo": {
+      "name": "Rohit Roy",
+      "phone": "9876543210"
+    },
+    "status": "Placed",
+    "createdAt": "2026-09-18T17:33:30.525Z"
+  },
+  {
+    "orderId": "ORD-164495",
+    "items": [
+      {
+        "id": "rm_1",
+        "name": "Dum Biryani",
+        "price": 32000,
+        "quantity": 1
+      }
+    ],
+    "totalAmount": 36000,
+    "customerInfo": {
+      "name": "Rohit Roy",
+      "phone": "9876543210"
+    },
+    "status": "Placed",
+    "createdAt": "2026-09-18T17:33:30.510Z"
+  },
+  {
+    "orderId": "ORD-290513",
+    "items": [
+      {
+        "id": "rm_1",
+        "name": "Special Dum Handi Biryani",
+        "price": 32000,
+        "defaultPrice": 32000,
+        "description": "Aromatic long-grain basmati rice layered with tender marinated chicken pieces, slow-cooked in a sealed clay pot with saffron & authentic spices.",
+        "imageId": "https://images.unsplash.com/photo-1563379091339-03b21ab4a4f8?auto=format&fit=crop&w=600&q=80",
+        "isVeg": 0,
+        "quantity": 2
+      }
+    ],
+    "totalAmount": 64000,
+    "customerInfo": {
+      "name": "Guest User"
+    },
+    "status": "Placed",
+    "createdAt": "2026-09-18T17:30:14.688Z"
+  },
+  {
     "orderId": "ORD-327433",
     "items": [
       {

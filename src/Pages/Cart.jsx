@@ -1,7 +1,8 @@
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 import { addItems, clearCart, removeItems, deleteItem } from "../Components/utils/cartSlice";
+import { openAuthModal } from "../Components/utils/userSlice";
 import {
   FaOpencart,
   FaTrashAlt,
@@ -11,10 +12,12 @@ import {
   FaCheckCircle,
   FaMapMarkerAlt,
   FaMotorcycle,
+  FaUserCheck,
 } from "react-icons/fa";
 
 export const Cart = () => {
   const cartItems = useSelector((storeState) => storeState.cart.items || []);
+  const currentUser = useSelector((storeState) => storeState.user?.currentUser);
 
   // Calculate prices
   const itemsSubtotal = cartItems.reduce(
@@ -34,12 +37,22 @@ export const Cart = () => {
   const [customUpiId, setCustomUpiId] = useState("");
   const [selectedBank, setSelectedBank] = useState("HDFC Bank");
 
-  // Delivery states
+  // Delivery states (auto-sync with currentUser)
   const [deliveryInfo, setDeliveryInfo] = useState({
-    name: "Rohit Roy",
-    phone: "9876543210",
-    address: "Flat 402, Green Avenue, Model Town",
+    name: currentUser?.name || "Rohit Roy",
+    phone: currentUser?.phone || "9876543210",
+    address: currentUser?.address || "Flat 402, Green Avenue, Model Town",
   });
+
+  useEffect(() => {
+    if (currentUser) {
+      setDeliveryInfo({
+        name: currentUser.name || "",
+        phone: currentUser.phone || "",
+        address: currentUser.address || "",
+      });
+    }
+  }, [currentUser]);
 
   const [orderStatus, setOrderStatus] = useState(null);
   const [isPlacingOrder, setIsPlacingOrder] = useState(false);
@@ -288,10 +301,31 @@ export const Cart = () => {
 
             {/* Delivery Address Section */}
             <div className="p-6 bg-white rounded-xl border border-gray-200 shadow-xs mt-6">
-              <h2 className="text-lg font-bold text-gray-800 mb-4 flex items-center gap-2">
-                <FaMapMarkerAlt className="text-orange-500" />
-                Delivery Address
-              </h2>
+              <div className="flex items-center justify-between mb-4">
+                <h2 className="text-lg font-bold text-gray-800 flex items-center gap-2">
+                  <FaMapMarkerAlt className="text-orange-500" />
+                  Delivery Address
+                </h2>
+                {currentUser && (
+                  <span className="text-xs text-green-700 bg-green-100 font-semibold px-2.5 py-1 rounded-full flex items-center gap-1">
+                    <FaUserCheck /> Saved Address Active
+                  </span>
+                )}
+              </div>
+
+              {!currentUser && (
+                <div className="mb-4 p-2.5 bg-orange-50 border border-orange-200 text-gray-700 text-xs rounded-xl flex items-center justify-between">
+                  <span>Have an account with saved addresses?</span>
+                  <button
+                    type="button"
+                    onClick={() => dispatch(openAuthModal({ mode: "signin" }))}
+                    className="text-orange-600 font-bold hover:underline cursor-pointer"
+                  >
+                    Sign In for Faster Checkout →
+                  </button>
+                </div>
+              )}
+
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
                 <div>
                   <label className="block text-xs font-semibold text-gray-600 mb-1">Full Name</label>

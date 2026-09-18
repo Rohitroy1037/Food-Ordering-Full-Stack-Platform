@@ -1,0 +1,24 @@
+[
+  {
+    "id": "usr_101",
+    "name": "Rohit Roy",
+    "email": "rohit@example.com",
+    "phone": "9876543210",
+    "password": "password123",
+    "address": "Flat 402, Green Avenue, Model Town",
+    "avatar": "https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?auto=format&fit=crop&w=200&q=80",
+    "role": "customer",
+    "createdAt": "2026-01-01T00:00:00.000Z"
+  },
+  {
+    "id": "usr_6525",
+    "name": "Priya Sharma",
+    "email": "priya1789754968392@example.com",
+    "phone": "9876500000",
+    "password": "securepassword123",
+    "address": "Tower 4, Sector 62, Noida",
+    "avatar": "https://api.dicebear.com/7.x/adventurer/svg?seed=Priya%20Sharma",
+    "role": "customer",
+    "createdAt": "2026-09-18T18:09:28.398Z"
+  }
+]

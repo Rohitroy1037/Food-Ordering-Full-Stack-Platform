@@ -9,6 +9,7 @@ import './App.css'
 import { Recipe } from "./Components/UI/Recipe";
 import { Cart } from "./Pages/Cart";
 import { TrackOrder } from "./Pages/TrackOrder";
+import { AuthPage } from "./Pages/AuthPage";
 
 const App = () => {
   const router = createBrowserRouter([
@@ -39,6 +40,14 @@ const App = () => {
         {
           path: "/track/:orderId",
           element: <TrackOrder />,
+        },
+        {
+          path: "/signin",
+          element: <AuthPage />,
+        },
+        {
+          path: "/signup",
+          element: <AuthPage />,
         },
         {
           path: "/foods",
